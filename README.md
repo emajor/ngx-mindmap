@@ -3,6 +3,7 @@
 Add in angular.json :
 
     "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/cytoscape-context-menus/cytoscape-context-menus.css"
             ],
             "scripts": [
@@ -19,4 +20,4 @@ Add in angular.json :
 
 # html
 
-    <ngx-mindmap></ngx-mindmap>
+    <lib-mindmap></lib-mindmap>
